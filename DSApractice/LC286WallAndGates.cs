@@ -9,6 +9,12 @@ namespace DSA.Practice
 {
     internal class LC286aWallAndGates
     {
+        //For Test This ins I/P and  expected O/P
+        //int inf = 2147483647;
+        //int[][] ip = [[inf, -1, 0, inf], [inf, inf, inf, -1], [inf, -1, inf, -1], [0, -1, inf, inf]];
+
+        //int[][] op = [[3, -1, 0, 1], [2, 2, 1, -1], [1, -1, 2, -1], [0, -1, 3, 4]];
+
         int wall = -1;
         int Gate = 0;
         int empty = 2147483647;
